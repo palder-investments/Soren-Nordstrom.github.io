@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://Soren-Nordstrom.github.io/sitemap.xml 
