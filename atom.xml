@@ -4,7 +4,7 @@
   <title><![CDATA[./tech[no]]]></title>
   <link href="http://Soren-Nordstrom.github.io/atom.xml" rel="self"/>
   <link href="http://Soren-Nordstrom.github.io/"/>
-  <updated>2014-04-21T13:24:01-04:00</updated>
+  <updated>2014-04-21T13:27:03-04:00</updated>
   <id>http://Soren-Nordstrom.github.io/</id>
   <author>
     <name><![CDATA[Soren Nordstrom]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Neato Blurry Screen Lock Script for X]]></title>
+    <title type="html"><![CDATA[Neato blurry screen lock script for X]]></title>
     <link href="http://Soren-Nordstrom.github.io/blog/i3-lock-blur/"/>
     <updated>2014-04-21T13:03:00-04:00</updated>
     <id>http://Soren-Nordstrom.github.io/blog/i3-lock-blur</id>
@@ -37,7 +37,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[New Blog]]></title>
+    <title type="html"><![CDATA[New blog]]></title>
     <link href="http://Soren-Nordstrom.github.io/blog/new-blog/"/>
     <updated>2014-04-21T12:13:00-04:00</updated>
     <id>http://Soren-Nordstrom.github.io/blog/new-blog</id>
