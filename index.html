@@ -9,8 +9,7 @@
   <meta name="author" content="Soren Nordstrom">
 
   
-  <meta name="description" content="Hello world. -sn
-">
+  <meta name="description" content="This script takes a screenshot, adds a blur, and then uses the blurred screenshot as the display image when you lock you X session. Save this as & &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -71,6 +70,56 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/blog/i3-lock-blur/">Neato Blurry Screen Lock Script for X</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-21T13:03:00-04:00" pubdate data-updated="true">Apr 21<span>st</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>This script takes a screenshot, adds a blur, and then uses the blurred screenshot as the display image when you lock you X session.</p>
+
+<p>Save this as &lsquo;lock&rsquo; somewhere in your $PATH.</p>
+
+<figure class='code'><figcaption><span> (lock)</span> <a href='/downloads/code/scripts/lock'>download</a></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'><span class="c">#!/bin/bash</span>
+</span><span class='line'>scrot /tmp/screenshot.png
+</span><span class='line'>convert /tmp/screenshot.png -blur 0x5 /tmp/screenshotblur.png
+</span><span class='line'>i3lock -i /tmp/screenshotblur.png
+</span></code></pre></td></tr></table></div></figure>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/new-blog/">New Blog</a></h1>
     
     
@@ -104,56 +153,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/i3-lock-blur/">Neato Blurry Screen Lock Script for X</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-04-21T12:13:00-04:00" pubdate data-updated="true">Apr 21<span>st</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>This script takes a screenshot, adds a blur, and then uses the blurred screenshot as the display image when you lock you X session.</p>
-
-<p>Save this as &lsquo;lock&rsquo; somewhere in your $PATH.</p>
-
-<figure class='code'><figcaption><span> (lock)</span> <a href='/downloads/code/scripts/lock'>download</a></figcaption>
-<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'><span class="c">#!/bin/bash</span>
-</span><span class='line'>scrot /tmp/screenshot.png
-</span><span class='line'>convert /tmp/screenshot.png -blur 0x5 /tmp/screenshotblur.png
-</span><span class='line'>i3lock -i /tmp/screenshotblur.png
-</span></code></pre></td></tr></table></div></figure>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
     <a href="/blog/archives">Blog Archives</a>
@@ -167,11 +166,11 @@
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/new-blog/">New Blog</a>
+        <a href="/blog/i3-lock-blur/">Neato Blurry Screen Lock Script for X</a>
       </li>
     
       <li class="post">
-        <a href="/blog/i3-lock-blur/">Neato Blurry Screen Lock Script for X</a>
+        <a href="/blog/new-blog/">New Blog</a>
       </li>
     
   </ul>

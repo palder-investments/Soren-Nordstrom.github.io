@@ -4,7 +4,7 @@
   <title><![CDATA[./tech[no]]]></title>
   <link href="http://Soren-Nordstrom.github.io/atom.xml" rel="self"/>
   <link href="http://Soren-Nordstrom.github.io/"/>
-  <updated>2014-04-21T13:03:53-04:00</updated>
+  <updated>2014-04-21T13:04:50-04:00</updated>
   <id>http://Soren-Nordstrom.github.io/</id>
   <author>
     <name><![CDATA[Soren Nordstrom]]></name>
@@ -14,20 +14,9 @@
 
   
   <entry>
-    <title type="html"><![CDATA[New Blog]]></title>
-    <link href="http://Soren-Nordstrom.github.io/blog/new-blog/"/>
-    <updated>2014-04-21T12:13:00-04:00</updated>
-    <id>http://Soren-Nordstrom.github.io/blog/new-blog</id>
-    <content type="html"><![CDATA[<p>Hello world.</p>
-
-<p>-sn</p>
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[Neato Blurry Screen Lock Script for X]]></title>
     <link href="http://Soren-Nordstrom.github.io/blog/i3-lock-blur/"/>
-    <updated>2014-04-21T12:13:00-04:00</updated>
+    <updated>2014-04-21T13:03:00-04:00</updated>
     <id>http://Soren-Nordstrom.github.io/blog/i3-lock-blur</id>
     <content type="html"><![CDATA[<p>This script takes a screenshot, adds a blur, and then uses the blurred screenshot as the display image when you lock you X session.</p>
 
@@ -44,6 +33,17 @@
 </span><span class='line'>i3lock -i /tmp/screenshotblur.png
 </span></code></pre></td></tr></table></div></figure>
 
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[New Blog]]></title>
+    <link href="http://Soren-Nordstrom.github.io/blog/new-blog/"/>
+    <updated>2014-04-21T12:13:00-04:00</updated>
+    <id>http://Soren-Nordstrom.github.io/blog/new-blog</id>
+    <content type="html"><![CDATA[<p>Hello world.</p>
+
+<p>-sn</p>
 ]]></content>
   </entry>
   

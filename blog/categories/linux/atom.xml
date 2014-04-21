@@ -4,7 +4,7 @@
   <title><![CDATA[Category: linux | ./tech[no]]]></title>
   <link href="http://Soren-Nordstrom.github.io/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://Soren-Nordstrom.github.io/"/>
-  <updated>2014-04-21T13:03:53-04:00</updated>
+  <updated>2014-04-21T13:04:50-04:00</updated>
   <id>http://Soren-Nordstrom.github.io/</id>
   <author>
     <name><![CDATA[Soren Nordstrom]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Neato blurry screen lock script for X]]></title>
     <link href="http://Soren-Nordstrom.github.io/blog/i3-lock-blur/"/>
-    <updated>2014-04-21T12:13:00-04:00</updated>
+    <updated>2014-04-21T13:03:00-04:00</updated>
     <id>http://Soren-Nordstrom.github.io/blog/i3-lock-blur</id>
     <content type="html"><![CDATA[<p>This script takes a screenshot, adds a blur, and then uses the blurred screenshot as the display image when you lock you X session.</p>
 
