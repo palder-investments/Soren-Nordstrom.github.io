@@ -4,7 +4,7 @@
   <title><![CDATA[./tech[no]]]></title>
   <link href="http://Soren-Nordstrom.github.io/atom.xml" rel="self"/>
   <link href="http://Soren-Nordstrom.github.io/"/>
-  <updated>2014-04-21T19:05:16-04:00</updated>
+  <updated>2014-04-21T19:14:20-04:00</updated>
   <id>http://Soren-Nordstrom.github.io/</id>
   <author>
     <name><![CDATA[Soren Nordstrom]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Use wget to download the weekly CLR podcast]]></title>
+    <link href="http://Soren-Nordstrom.github.io/blog/wget-clr-podcast/"/>
+    <updated>2014-04-21T19:07:00-04:00</updated>
+    <id>http://Soren-Nordstrom.github.io/blog/wget-clr-podcast</id>
+    <content type="html"><![CDATA[<p>I hate web browsers.  They just keep getting bigger, and clunkier.  So, I try to do as much as possible from the command line, and getting my weekly techno fix from CLR.net is no exception.  I recieve the RSS feed in my reader and get the number and name of this week&rsquo;s artist from there.  Then I cd into the directory where I keep those sorts of things.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>wget -c http://daten.clr.net/pod/CLRSRxxx_Artist_Name.mp3
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The folks over at CLR are pretty good about sticking to their naming convention, so each week is just n+1 from last week&rsquo;s number and the title-cased artist name in the same URL.</p>
+
+<p>Easy-peasy, no fucking browser.</p>
+
+<p>-sn</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Neato blurry screen lock script for X]]></title>

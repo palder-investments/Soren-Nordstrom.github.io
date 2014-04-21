@@ -9,7 +9,7 @@
   <meta name="author" content="Soren Nordstrom">
 
   
-  <meta name="description" content="This script takes a screenshot, adds a blur, and then uses the blurred screenshot as the display image when you lock your X session. Save this as & &hellip;">
+  <meta name="description" content="I hate web browsers. They just keep getting bigger, and clunkier. So, I try to do as much as possible from the command line, and getting my weekly &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -66,6 +66,53 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/wget-clr-podcast/">Use wget to download the weekly CLR podcast</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-21T19:07:00-04:00" pubdate data-updated="true">Apr 21<span>st</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I hate web browsers.  They just keep getting bigger, and clunkier.  So, I try to do as much as possible from the command line, and getting my weekly techno fix from CLR.net is no exception.  I recieve the RSS feed in my reader and get the number and name of this week&rsquo;s artist from there.  Then I cd into the directory where I keep those sorts of things.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>wget -c http://daten.clr.net/pod/CLRSRxxx_Artist_Name.mp3
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The folks over at CLR are pretty good about sticking to their naming convention, so each week is just n+1 from last week&rsquo;s number and the title-cased artist name in the same URL.</p>
+
+<p>Easy-peasy, no fucking browser.</p>
+
+<p>-sn</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -166,6 +213,10 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/wget-clr-podcast/">Use wget to download the weekly CLR podcast</a>
+      </li>
     
       <li class="post">
         <a href="/blog/i3-lock-blur/">Neato blurry screen lock script for X</a>
