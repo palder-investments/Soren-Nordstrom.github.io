@@ -1,0 +1,13 @@
+---
+layout: post
+title: Neato blurry screen lock script for X
+date: 2014-04-21 13:03
+comments: true
+external-url:
+categories: [shell, linux, productivity]
+---
+This script takes a screenshot, adds a blur, and then uses the blurred screenshot as the display image when you lock your X session.
+
+Save this as 'lock' somewhere in your $PATH.
+
+{% include_code scripts/lock %}

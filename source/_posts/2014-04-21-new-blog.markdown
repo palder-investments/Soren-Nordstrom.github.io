@@ -1,0 +1,11 @@
+---
+layout: post
+title: New blog
+date: 2014-04-21 12:13
+comments: true
+external-url:
+categories:
+---
+Hello world.
+
+-sn
