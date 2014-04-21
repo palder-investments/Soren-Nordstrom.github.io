@@ -4,7 +4,7 @@
   <title><![CDATA[./tech[no]]]></title>
   <link href="http://Soren-Nordstrom.github.io/atom.xml" rel="self"/>
   <link href="http://Soren-Nordstrom.github.io/"/>
-  <updated>2014-04-21T13:40:55-04:00</updated>
+  <updated>2014-04-21T13:44:43-04:00</updated>
   <id>http://Soren-Nordstrom.github.io/</id>
   <author>
     <name><![CDATA[Soren Nordstrom]]></name>
@@ -18,7 +18,7 @@
     <link href="http://Soren-Nordstrom.github.io/blog/i3-lock-blur/"/>
     <updated>2014-04-21T13:03:00-04:00</updated>
     <id>http://Soren-Nordstrom.github.io/blog/i3-lock-blur</id>
-    <content type="html"><![CDATA[<p>This script takes a screenshot, adds a blur, and then uses the blurred screenshot as the display image when you lock you X session.</p>
+    <content type="html"><![CDATA[<p>This script takes a screenshot, adds a blur, and then uses the blurred screenshot as the display image when you lock your X session.</p>
 
 <p>Save this as &lsquo;lock&rsquo; somewhere in your $PATH.</p>
 
