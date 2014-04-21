@@ -4,7 +4,7 @@
   <title><![CDATA[./tech[no]]]></title>
   <link href="http://Soren-Nordstrom.github.io/atom.xml" rel="self"/>
   <link href="http://Soren-Nordstrom.github.io/"/>
-  <updated>2014-04-21T19:14:20-04:00</updated>
+  <updated>2014-04-21T19:18:19-04:00</updated>
   <id>http://Soren-Nordstrom.github.io/</id>
   <author>
     <name><![CDATA[Soren Nordstrom]]></name>
@@ -53,6 +53,10 @@
 </span><span class='line'>i3lock -i /tmp/screenshotblur.png
 </span></code></pre></td></tr></table></div></figure>
 
+
+<p>You can run lock in your terminal emulator, or dmenu (or however the cool gui-kids are launching shit these days).  Or set it to automatically run in your Xsession manager (.Xinitrc for me).</p>
+
+<p>-sn</p>
 ]]></content>
   </entry>
   
