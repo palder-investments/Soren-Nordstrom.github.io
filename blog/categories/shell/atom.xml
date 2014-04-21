@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[./tech[no]]]></title>
-  <link href="http://Soren-Nordstrom.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: shell | ./tech[no]]]></title>
+  <link href="http://Soren-Nordstrom.github.io/blog/categories/shell/atom.xml" rel="self"/>
   <link href="http://Soren-Nordstrom.github.io/"/>
   <updated>2014-04-21T13:02:03-04:00</updated>
   <id>http://Soren-Nordstrom.github.io/</id>
@@ -14,18 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[New Blog]]></title>
-    <link href="http://Soren-Nordstrom.github.io/blog/new-blog/"/>
-    <updated>2014-04-21T12:13:00-04:00</updated>
-    <id>http://Soren-Nordstrom.github.io/blog/new-blog</id>
-    <content type="html"><![CDATA[<p>Hello world.</p>
-
-<p>-sn</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[New Blog]]></title>
+    <title type="html"><![CDATA[New blog]]></title>
     <link href="http://Soren-Nordstrom.github.io/blog/i3-lock-blur/"/>
     <updated>2014-04-21T12:13:00-04:00</updated>
     <id>http://Soren-Nordstrom.github.io/blog/i3-lock-blur</id>
@@ -33,7 +22,7 @@
 
 <p>Save this as &lsquo;lock&rsquo; somewhere in your $PATH.</p>
 
-<figure class='code'><figcaption><span> (lock)</span> <a href='http://Soren-Nordstrom.github.io/downloads/code/scripts/lock'>download</a></figcaption>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span> (lock)</span> <a href='/downloads/code/scripts/lock'>download</a></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -42,8 +31,7 @@
 </span><span class='line'>scrot /tmp/screenshot.png
 </span><span class='line'>convert /tmp/screenshot.png -blur 0x5 /tmp/screenshotblur.png
 </span><span class='line'>i3lock -i /tmp/screenshotblur.png
-</span></code></pre></td></tr></table></div></figure>
-
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 ]]></content>
   </entry>
   
