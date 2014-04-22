@@ -1,6 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>http://Soren-Nordstrom.github.io/blog/muzik-boycott/</loc>
+        <lastmod>2014-04-21T23:39:40-04:00</lastmod>
+    </url>
+    <url>
         <loc>http://Soren-Nordstrom.github.io/blog/new-blog/</loc>
         <lastmod>2014-04-21T12:14:23-04:00</lastmod>
     </url>
@@ -14,7 +18,7 @@
     </url>
     <url>
         <loc>http://Soren-Nordstrom.github.io/</loc>
-        <lastmod>2014-04-21T19:26:45-04:00</lastmod>
+        <lastmod>2014-04-21T23:39:40-04:00</lastmod>
     </url>
     <url>
         <loc>http://Soren-Nordstrom.github.io/robots.txt</loc>
@@ -22,6 +26,6 @@
     </url>
     <url>
         <loc>http://Soren-Nordstrom.github.io/blog/archives/</loc>
-        <lastmod>2014-04-21T19:26:45-04:00</lastmod>
+        <lastmod>2014-04-21T23:39:40-04:00</lastmod>
     </url>
 </urlset>

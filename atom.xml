@@ -4,7 +4,7 @@
   <title><![CDATA[./tech[no]]]></title>
   <link href="http://Soren-Nordstrom.github.io/atom.xml" rel="self"/>
   <link href="http://Soren-Nordstrom.github.io/"/>
-  <updated>2014-04-21T19:48:54-04:00</updated>
+  <updated>2014-04-21T23:39:47-04:00</updated>
   <id>http://Soren-Nordstrom.github.io/</id>
   <author>
     <name><![CDATA[Soren Nordstrom]]></name>
@@ -66,6 +66,27 @@
     <updated>2014-04-21T12:13:00-04:00</updated>
     <id>http://Soren-Nordstrom.github.io/blog/new-blog</id>
     <content type="html"><![CDATA[<p>Hello world.</p>
+
+<p>-sn</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Boycott Muzik]]></title>
+    <link href="http://Soren-Nordstrom.github.io/blog/muzik-boycott/"/>
+    <updated>2014-04-21T11:25:00-04:00</updated>
+    <id>http://Soren-Nordstrom.github.io/blog/muzik-boycott</id>
+    <content type="html"><![CDATA[<h1>So let me get this straight;</h1>
+
+<p>Rob Ford&rsquo;s friend, and owner of Muzik nightclub, the sole nightclub in the exhibition petitions the board to ban &ldquo;EDM&rdquo; events and they do it?  <strong>What fucking plaet is this?</strong></p>
+
+<p>There&rsquo;s so much wrong with this I don&rsquo;t even know where to start.</p>
+
+<h3>Follow the money</h3>
+
+<p>Let&rsquo;s try revenue; the city is losing somewhere around one million dollars per year in revenue.  There&rsquo;s nothing to explain there.  We&rsquo;re losing money.</p>
+
+<p>But, who stands to gain what is likely a significant chunk of that revenue?  Oh, right, our buddy &ldquo;Z&rdquo; over at Muzik.</p>
 
 <p>-sn</p>
 ]]></content>
