@@ -46,7 +46,7 @@ $img-border: none;
 
 
 // Main Link Colors
-$link-color: $sol_cyan;
+$link-color: $sol_base0;
 $link-color-hover: $sol_base01;
 $link-color-visited: $link-color;
 $link-color-active: $link-color-hover;
@@ -66,7 +66,7 @@ $nav-color: $sol_green;
 $nav-color-hover: $sol_green;
 /* Sidebar colors */
 $sidebar-bg: darken($sol_base3, 1);
-$sidebar-color: $sol_cyan;
+$sidebar-color: $sol_base0;
 // Footer
 $footer-bg: $sol_base3;
 $footer-bg-front:$sol_base3;
