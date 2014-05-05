@@ -1,0 +1,14 @@
+---
+layout: post
+title: ii makes everything else seem bloated
+date: 2014-04-28 12:00
+comments: true
+external-url:
+categories: LiGNUx,ii,suckless,irc
+---
+
+I've finally gotten around to figuring out how [ii](ii.suckless.org) works.  At first glance the whole concept feels foreign and weird, but if you take the time to read the docs (rtfm) it isn't as confusing (naturally)
+
+Basically ii creates one directory per irc server.  In that directory is an in file and an out file as well as one directory per channel or private message, also with an in file and an out file.  
+To see channel/server activity and messages use ``` tail -f ``` to watch the out files and ``` cat > in ``` to write to the in files. 
+-sn
