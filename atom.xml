@@ -4,7 +4,7 @@
   <title><![CDATA[./tech[no]]]></title>
   <link href="http://Soren-Nordstrom.github.io/atom.xml" rel="self"/>
   <link href="http://Soren-Nordstrom.github.io/"/>
-  <updated>2014-04-22T00:32:48-04:00</updated>
+  <updated>2014-05-05T11:05:59-04:00</updated>
   <id>http://Soren-Nordstrom.github.io/</id>
   <author>
     <name><![CDATA[Soren Nordstrom]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[ii makes everything else seem bloated]]></title>
+    <link href="http://Soren-Nordstrom.github.io/blog/ii/"/>
+    <updated>2014-04-28T12:00:00-04:00</updated>
+    <id>http://Soren-Nordstrom.github.io/blog/ii</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve finally gotten around to figuring out how <a href="ii.suckless.org">ii</a> works.  At first glance the whole concept feels foreign and weird, but if you take the time to read the docs (rtfm) it isn&rsquo;t as confusing (naturally)</p>
+
+<p>Basically ii creates one directory per irc server.  In that directory is an in file and an out file as well as one directory per channel or private message, also with an in file and an out file.<br/>
+To see channel/server activity and messages use <code>tail -f</code> to watch the out files and <code>cat &gt; in</code> to write to the in files.
+-sn</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Boycott Muzik]]></title>

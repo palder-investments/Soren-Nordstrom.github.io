@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Neato blurry screen lock script for X - ./tech[no]</title>
+  <title>ii makes everything else seem bloated - ./tech[no]</title>
   <meta name="author" content="Soren Nordstrom">
 
   
-  <meta name="description" content="This script takes a screenshot, adds a blur, and then uses the blurred screenshot as the display image when you lock your X session. Save this as & &hellip;">
+  <meta name="description" content="I&rsquo;ve finally gotten around to figuring out how ii works. At first glance the whole concept feels foreign and weird, but if you take the time to &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://Soren-Nordstrom.github.io/blog/i3-lock-blur">
+  <link rel="canonical" href="http://Soren-Nordstrom.github.io/blog/ii">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="./tech[no]" type="application/atom+xml">
@@ -69,7 +69,7 @@
   
   <header>
     
-      <h1 class="entry-title">Neato blurry screen lock script for X</h1>
+      <h1 class="entry-title">ii makes everything else seem bloated</h1>
     
     
       <p class="meta">
@@ -85,32 +85,18 @@
   
 
 
-<time datetime="2014-04-21T13:03:00-04:00" pubdate data-updated="true">Apr 21<span>st</span>, 2014</time>
+<time datetime="2014-04-28T12:00:00-04:00" pubdate data-updated="true">Apr 28<span>th</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>This script takes a screenshot, adds a blur, and then uses the blurred screenshot as the display image when you lock your X session.</p>
+<div class="entry-content"><p>I&rsquo;ve finally gotten around to figuring out how <a href="ii.suckless.org">ii</a> works.  At first glance the whole concept feels foreign and weird, but if you take the time to read the docs (rtfm) it isn&rsquo;t as confusing (naturally)</p>
 
-<p>Save this as &lsquo;lock&rsquo; somewhere in your $PATH.</p>
-
-<figure class='code'><figcaption><span> (lock)</span> <a href='/downloads/code/scripts/lock'>download</a></figcaption>
-<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'><span class="c">#!/bin/bash</span>
-</span><span class='line'>scrot /tmp/screenshot.png
-</span><span class='line'>convert /tmp/screenshot.png -blur 0x5 /tmp/screenshotblur.png
-</span><span class='line'>i3lock -i /tmp/screenshotblur.png
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>You can run lock in your terminal emulator, or dmenu (or however the cool gui-kids are launching shit these days).  Or set it to automatically run in your Xsession manager (.Xinitrc for me).</p>
-
-<p>-sn</p>
+<p>Basically ii creates one directory per irc server.  In that directory is an in file and an out file as well as one directory per channel or private message, also with an in file and an out file.<br/>
+To see channel/server activity and messages use <code>tail -f</code> to watch the out files and <code>cat &gt; in</code> to write to the in files.
+-sn</p>
 </div>
 
 
@@ -133,12 +119,12 @@
   
 
 
-<time datetime="2014-04-21T13:03:00-04:00" pubdate data-updated="true">Apr 21<span>st</span>, 2014</time>
+<time datetime="2014-04-28T12:00:00-04:00" pubdate data-updated="true">Apr 28<span>th</span>, 2014</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/linux/'>linux</a>, <a class='category' href='/blog/categories/productivity/'>productivity</a>, <a class='category' href='/blog/categories/shell/'>shell</a>
+    <a class='category' href='/blog/categories/lignux-ii-suckless-irc/'>LiGNUx,ii,suckless,irc</a>
   
 </span>
 
@@ -147,7 +133,7 @@
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://Soren-Nordstrom.github.io/blog/i3-lock-blur/" data-via="soren_nordstrom" data-counturl="http://Soren-Nordstrom.github.io/blog/i3-lock-blur/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://Soren-Nordstrom.github.io/blog/ii/" data-via="soren_nordstrom" data-counturl="http://Soren-Nordstrom.github.io/blog/ii/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -158,10 +144,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/new-blog/" title="Previous Post: New blog">&laquo; New blog</a>
+        <a class="basic-alignment left" href="/blog/muzik-boycott/" title="Previous Post: Boycott Muzik">&laquo; Boycott Muzik</a>
       
-      
-        <a class="basic-alignment right" href="/blog/wget-clr-podcast/" title="Next Post: Use wget to download the weekly CLR podcast">Use wget to download the weekly CLR podcast &raquo;</a>
       
     </p>
   </footer>
