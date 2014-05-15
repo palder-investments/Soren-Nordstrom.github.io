@@ -4,7 +4,7 @@
   <title><![CDATA[Category: shell | ./tech[no]]]></title>
   <link href="http://Soren-Nordstrom.github.io/blog/categories/shell/atom.xml" rel="self"/>
   <link href="http://Soren-Nordstrom.github.io/"/>
-  <updated>2014-05-12T12:16:08-04:00</updated>
+  <updated>2014-05-15T13:24:14-04:00</updated>
   <id>http://Soren-Nordstrom.github.io/</id>
   <author>
     <name><![CDATA[Soren Nordstrom]]></name>
@@ -22,16 +22,7 @@
 
 <p>Save this as &lsquo;lock&rsquo; somewhere in your $PATH.</p>
 
-<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span> (lock)</span> <a href='/downloads/code/scripts/lock'>download</a></figcaption>
-<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'><span class="c">#!/bin/bash</span>
-</span><span class='line'>scrot /tmp/screenshot.png
-</span><span class='line'>convert /tmp/screenshot.png -blur 0x5 /tmp/screenshotblur.png
-</span><span class='line'>i3lock -i /tmp/screenshotblur.png
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+<p>File /home/nordstrom/git/octopress/source/downloads/code/scripts/lock could not be found</p>
 
 <p>You can run lock in your terminal emulator, or dmenu (or however the cool gui-kids are launching shit these days).  Or set it to automatically run in your Xsession manager (.Xinitrc for me).</p>
 
