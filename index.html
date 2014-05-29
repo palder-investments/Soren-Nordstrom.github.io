@@ -332,7 +332,17 @@ This isn&rsquo;t about keeping kids off drugs, if it were the city would hold <e
 
 <p>Save this as &lsquo;lock&rsquo; somewhere in your $PATH.</p>
 
-<p>File /home/nordstrom/git/octopress/source/downloads/code/scripts/lock could not be found</p>
+<figure class='code'><figcaption><span> (lock)</span> <a href='/downloads/code/scripts/lock'>download</a></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'><span class="c">#!/bin/bash</span>
+</span><span class='line'>scrot /tmp/screenshot.png
+</span><span class='line'>convert /tmp/screenshot.png -blur 0x5 /tmp/screenshotblur.png
+</span><span class='line'>i3lock -i /tmp/screenshotblur.png
+</span></code></pre></td></tr></table></div></figure>
+
 
 <p>You can run lock in your terminal emulator, or dmenu (or however the cool gui-kids are launching shit these days).  Or set it to automatically run in your Xsession manager (.Xinitrc for me).</p>
 
