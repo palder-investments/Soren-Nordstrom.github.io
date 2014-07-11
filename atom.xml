@@ -4,7 +4,7 @@
   <title><![CDATA[./tech[no]]]></title>
   <link href="http://Soren-Nordstrom.github.io/atom.xml" rel="self"/>
   <link href="http://Soren-Nordstrom.github.io/"/>
-  <updated>2014-05-29T16:36:38-04:00</updated>
+  <updated>2014-07-11T17:27:05-04:00</updated>
   <id>http://Soren-Nordstrom.github.io/</id>
   <author>
     <name><![CDATA[Soren Nordstrom]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[New blog]]></title>
+    <link href="http://Soren-Nordstrom.github.io/blog/new-post/"/>
+    <updated>2014-05-30T18:17:00-04:00</updated>
+    <id>http://Soren-Nordstrom.github.io/blog/new-post</id>
+    <content type="html"><![CDATA[<p>-sn</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Dispersion Measure - Quintessence]]></title>
