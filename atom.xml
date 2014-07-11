@@ -4,7 +4,7 @@
   <title><![CDATA[./tech[no]]]></title>
   <link href="http://Soren-Nordstrom.github.io/atom.xml" rel="self"/>
   <link href="http://Soren-Nordstrom.github.io/"/>
-  <updated>2014-05-12T12:16:08-04:00</updated>
+  <updated>2014-05-29T16:36:38-04:00</updated>
   <id>http://Soren-Nordstrom.github.io/</id>
   <author>
     <name><![CDATA[Soren Nordstrom]]></name>
@@ -12,6 +12,33 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Dispersion Measure - Quintessence]]></title>
+    <link href="http://Soren-Nordstrom.github.io/blog/dispersion-measure-quintessence/"/>
+    <updated>2014-05-18T23:06:00-04:00</updated>
+    <id>http://Soren-Nordstrom.github.io/blog/dispersion-measure-quintessence</id>
+    <content type="html"><![CDATA[<p>Decided to challenge myself by writing an ambient EP in one evening.  This is the result.</p>
+
+<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/35551889&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>
+
+
+<p>-sn</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Deep State available on Bandcamp]]></title>
+    <link href="http://Soren-Nordstrom.github.io/blog/deep-state/"/>
+    <updated>2014-05-15T13:28:00-04:00</updated>
+    <id>http://Soren-Nordstrom.github.io/blog/deep-state</id>
+    <content type="html"><![CDATA[<p>My second release “Deep State” is now available on <a href="http://srennordstrm.bandcamp.com">Bandcamp</a>.
+It’s the product of a tonne of work by myself and a few others who were kind enough to be involved in the project.  If you can’t swing the $5 (CAD) for it, just wait a few more days and it’ll be released on <a href="http://ektoplazm.com">Ektoplazm</a>.
+I hope you enjoy it.</p>
+
+<p>-sn</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[ii makes everything else seem bloated]]></title>
